@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { BookOpen, Calculator, FlaskConical, Menu, Search, X } from "lucide-react";
+import { BookOpen, Calculator, ClipboardCheck, FlaskConical, Menu, Search, X } from "lucide-react";
 import { useState, useCallback, useEffect } from "react";
 import SearchDialog from "@/components/SearchDialog";
 
@@ -7,6 +7,7 @@ const navItems = [
   { to: "/", label: "Home", icon: BookOpen },
   { to: "/topics", label: "Topics", icon: FlaskConical },
   { to: "/tools", label: "Math Tools", icon: Calculator },
+  { to: "/quiz", label: "Quiz", icon: ClipboardCheck },
 ];
 
 const Navbar = () => {
