@@ -8,6 +8,7 @@ import Index from "./pages/Index.tsx";
 import Topics from "./pages/Topics.tsx";
 import Tools from "./pages/Tools.tsx";
 import Quiz from "./pages/Quiz.tsx";
+import Notes from "./pages/Notes.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/topics" element={<Topics />} />
           <Route path="/tools" element={<Tools />} />
           <Route path="/quiz" element={<Quiz />} />
+          <Route path="/notes" element={<Notes />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
