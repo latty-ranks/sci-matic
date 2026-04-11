@@ -37,7 +37,10 @@ const Navbar = () => {
             <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
               <FlaskConical className="h-5 w-5 text-primary-foreground" />
             </div>
-            <span className="text-lg font-bold text-foreground">Sci-Sci-matic</span>
+            <div className="flex flex-col leading-tight">
+              <span className="text-sm font-bold text-foreground">Latif's Study Hub</span>
+              <span className="text-[9px] font-semibold uppercase tracking-widest text-muted-foreground">× PASH MEDIA</span>
+            </div>
           </Link>
 
           {/* Desktop */}
