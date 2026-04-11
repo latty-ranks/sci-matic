@@ -59,12 +59,13 @@ const Index = () => {
             <BookOpen className="h-4 w-4" />
             Uganda S.1 – S.4 Curriculum
           </div>
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-primary-foreground md:text-6xl">
-            Sci-Sci-matic
+          <h1 className="mb-2 text-4xl font-extrabold tracking-tight text-primary-foreground md:text-6xl">
+            Latif's Study Hub
           </h1>
+          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-primary-foreground/60">× PASH MEDIA</p>
           <p className="mb-8 text-lg text-primary-foreground/80 md:text-xl">
-            Your smart study companion for Mathematics, Physics, Chemistry & Biology.
-            Explore topics, use calculators, and master your subjects.
+            Your AI-powered study companion for Mathematics, Physics, Chemistry & Biology.
+            Educate. Together we elevate. 🇺🇬
           </p>
           <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
             <Link
@@ -121,7 +122,8 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="border-t border-border px-4 py-8 text-center text-sm text-muted-foreground">
-        <p>Sci-Sci-matic — Study smarter, achieve more 🇺🇬</p>
+        <p className="font-medium">Latif's Study Hub × PASH MEDIA — Educate. Together we elevate. 🇺🇬</p>
+        <p className="mt-1 text-xs">For support: latifisabirye123@gmail.com | © 2026 Pash Media Services</p>
       </footer>
     </div>
   );
