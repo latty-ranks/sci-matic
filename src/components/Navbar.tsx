@@ -5,7 +5,6 @@ import SearchDialog from "@/components/SearchDialog";
 
 const navItems = [
   { to: "/", label: "Home", icon: BookOpen },
-  { to: "/topics", label: "Topics", icon: FlaskConical },
   { to: "/notes", label: "Notes", icon: FileText },
   { to: "/tools", label: "Tools", icon: Calculator },
   { to: "/quiz", label: "Quiz", icon: ClipboardCheck },
